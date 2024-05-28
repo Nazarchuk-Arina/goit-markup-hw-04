@@ -84,13 +84,28 @@ img {
 .header-menu-link:focus {
   color: #404bbf;
 }
-.adress {
+.header-menu-link-studio {
+  position: relative;
+  color: #404bbf;
+}
+.header-menu-link-studio::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
+}
+.header-menu-link-studio .adress {
   margin-left: auto;
 }
 .header-contacts {
   font-style: normal;
   display: flex;
   gap: 40px;
+  margin-left: 332px;
 }
 .header-contacts-link {
   font-size: 16px;
@@ -109,6 +124,14 @@ img {
 /* Hero */
 .hero {
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../people-office\ 1-min\ copy.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding-bottom: 188px;
   padding-top: 188px;
 }
@@ -201,6 +224,12 @@ section {
 .features-item {
   width: calc((100% - 72px) / 4);
 }
+.features-icon {
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  /* border: 1px solid #8e8f99; */
+}
 /* Team */
 .team-title {
   margin-bottom: 72px;
@@ -230,6 +259,20 @@ section {
 }
 .worker {
   padding: 32px 0;
+}
+.team-social {
+  display: flex;
+  gap: 24px;
+}
+.team-social-item[] .team-social-link {
+  display: block;
+  border-radius; 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #4D5AE5;
+}
+.team-social-icon {
+  fill: #fff;
 }
 /* Portfolio */
 .main-portfolio-list {
