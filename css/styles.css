@@ -277,13 +277,6 @@ section {
 .worker {
   padding: 32px 0;
 }
-.team-social-icons {
-  display: flex;
-  gap: 24px;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-}
 .team-social {
   display: flex;
   gap: 24px;
