@@ -435,7 +435,7 @@ section {
   display: flex;
   flex-direction: column;
   margin-left: 540px;
-  margin-left: auto;
+  margin-right: auto;
 }
 .footer-content {
   display: flex;
