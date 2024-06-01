@@ -138,7 +138,7 @@ img {
     ),
     url(../images/people-office\ 1-min.jpg);
   max-width: 1440px;
-  /* max-width: 100%; */
+  max-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -237,11 +237,6 @@ section {
 .features-item {
   width: calc((100% - 72px) / 4);
 }
-/* .features-icon {
-  width: 264px;
-  height: 112px;
-  margin-bottom: 8px;
-} */
 .features-icon {
   display: flex;
   align-items: center;
