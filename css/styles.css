@@ -138,7 +138,7 @@ img {
     ),
     url(../images/people-office\ 1-min.jpg);
   max-width: 1440px;
-  max-width: 100%;
+  /* max-width: 100%; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -304,9 +304,12 @@ section {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-social-icon {
-  fill: #fff;
+  fill: #f4f4fd;
 }
 .team-social-link:hover {
+  background-color: #404bbf;
+}
+.team-social-link:focus {
   background-color: #404bbf;
 }
 /* Portfolio */
