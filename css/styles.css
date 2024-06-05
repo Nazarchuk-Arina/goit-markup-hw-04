@@ -431,12 +431,6 @@ section {
 .footer-social-icon {
   fill: #f4f4fd;
 }
-.footer-social-media {
-  display: flex;
-  flex-direction: column;
-  margin-left: 540px;
-  margin-right: auto;
-}
 .footer-content {
   display: flex;
   margin-left: 156px;
